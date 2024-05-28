@@ -1,0 +1,209 @@
+/* Rajcss.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(21, 21, 20);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: #333;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#home .btn {
+    padding: 0.5rem 1rem;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#home .btn:hover {
+    background: #e68a00;
+}
+
+/* About Section */
+#about img {
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+#about h2, #projects h2, #skills h2, #resume h2, #contact h2, #social-media h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#about table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#about table, #about th, #about td {
+    border: 1px solid #ddd;
+}
+
+#about th, #about td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Projects Section */
+#projects .project-gallery ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects .project-gallery ul li {
+    margin-bottom: 1rem;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #eee;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#resume .btn:hover {
+    background: #e68a00;
+}
+
+/* Social Media Section */
+#social-media img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#social-media h3 {
+    text-align: center;
+}
+
+#social-media a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#social-media a:hover {
+    color: #ff9800;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background: #ff9800;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+}
